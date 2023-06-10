@@ -1,6 +1,10 @@
 body{
     margin: auto;
     background-color: black;
+    background-image: url(https://www.wallpaperflare.com/static/436/228/997/movies-mad-max-the-dark-knight-interstellar-movie-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .all-content{
 padding: 8px 10%;
@@ -32,7 +36,7 @@ nav{
 }
 
 .logo{
-    background-color: rgba(255, 255, 0, 0.868);
+    background-color: yellow;
     color: black;
     display:inline-block;
     width:80px;
@@ -45,25 +49,27 @@ nav{
     border-radius: 3px;
 }
 
-.watchlist{
-    display: none;
+.favorites{
+    display: block;
     margin-left: 20px;
     border-left: 3px solid rgb(78, 139, 223);
-    padding-left:10px ;
+    padding-left:10% ;
     border-radius: 2px;
+    color: white;
+    text-decoration: none;
 }
 
 .fa-bars{
     padding-right: 10px;
 }
 
-#sign-in-btn{
+/* #sign-in-btn{
     background-color: rgba(151, 232, 59, 0.738);
     padding:4px 10px;
     margin-left: 10px;
     border-radius: 50px;
     font-size: 1.05rem;
-}
+} */
 
 /* ==========================RESPONSIVENESS OF NAVBAR======================== */
 
@@ -73,7 +79,7 @@ nav{
         display: flex;
         justify-content: center;
         height:30px;
-        width: 250px;
+        width: 300px;
     }
 
     
@@ -117,9 +123,7 @@ nav{
         font-weight: 900;
     }
 
-    .watchlist{
-        display: block;
-    }
+   
 
   
     
@@ -133,3 +137,75 @@ nav{
         display: none;
     }
 }
+
+/* --------search results-------- */
+#search-result-text{
+    color: white;
+    font-size: 2.5rem;
+    display: none;
+}
+
+
+#search-result{
+    display: none;
+    flex-direction: row;
+    height: fit-content;
+    margin-top: 100px;
+}
+#search-result #title{
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(255, 0, 0, 0.245);
+    padding: 5px;
+}
+#search-result img{
+    height: 16%;
+    width: 18%;
+    margin-right: 20px;
+}
+#search-movie-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-movie-heading{
+    /* padding: 5px 10px 5px 10px; */
+    color: rgb(224, 231, 90);
+    font-size: 1.5rem;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.search-movie-details{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#add-to-favorites{
+    display: inline-block;
+ width:200px;
+ height:10%;
+ margin-top: 15px;
+ color: black;
+ background-color: yellow;
+ font-size: 1rem;
+ font-weight: 800;
+ border-radius: 5px;   
+}
+#add-to-favorites:hover{
+    background-color: rgb(220, 220, 67);
+}
+
+#remove-from-favorites{
+    display: none;
+    width:200px;
+    height:10%;
+    margin-top: 5px;
+    color: black;
+    background-color: rgb(229, 82, 52);
+    font-size: .8rem;
+    font-weight: 800;
+    border-radius: 5px;
+    line-height: 22px;
+}
+

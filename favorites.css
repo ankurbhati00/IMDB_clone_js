@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    border-width: 0px 0px 0px 3.5px;
+    border-color: red;
+    border-style: solid;
+    padding-left: 10px;
+background-color: rgba(131, 55, 55, 0.466);
+font-size: 2.5rem;
+margin-top: 0px;
+
+}
+
+.all-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+img{
+   
+    height:260px;
+    width:181.8px;
+    border: 2px solid white;
+   
+}
+
+img:hover{
+    transform: scale(1.01);
+}
+
+.movie-card{
+    max-width: 181.8px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#title{
+   
+    color:white;
+    word-wrap: break-word;
+}
