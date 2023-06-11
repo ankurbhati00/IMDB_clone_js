@@ -23,7 +23,8 @@ img{
    
     height:260px;
     width:181.8px;
-    border: 2px solid white;
+    
+
    
 }
 
@@ -35,9 +36,12 @@ img:hover{
     max-width: 181.8px;
     margin-top: 5px;
     margin-right: 5px;
+    position: relative;
+
 }
 #title{
    
     color:white;
     word-wrap: break-word;
 }
+

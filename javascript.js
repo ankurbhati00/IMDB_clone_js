@@ -92,6 +92,8 @@
 // : 
 // Object
 
+// ==========search and enter========
+
 document.getElementById('form').addEventListener("submit",(event)=>{
     let searchValue = document.getElementById('search-input').value;
     console.log(searchValue);
@@ -103,10 +105,8 @@ document.getElementById('form').addEventListener("submit",(event)=>{
 
 function notFound(){
   
-   document.getElementById('search-result-text').innerHTML= ` " Not Found " `;
+   document.getElementById('search-result-text').innerHTML= ` "Oops! not found " `;
    document.getElementById('search-result-text').style.display='block';
-   document.getElementById('search-result-text').style.marginLeft='220px';
-   document.getElementById('search-result-text').style.color='red';
    document.getElementById('search-result').style.display='none';
 
 
@@ -155,6 +155,8 @@ document.getElementById('search-result-text').style.display='block';
 document.getElementById('search-result-text').innerHTML= ` " Search results " `;
 document.getElementById('search-result').style.display='flex';
 document.getElementById('body').style.backgroundImage='none';
+document.getElementById('remove-from-favorites').style.display='none';
+
 }
 
 // <-------add-to-favorite------->
