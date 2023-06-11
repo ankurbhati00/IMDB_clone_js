@@ -145,9 +145,6 @@ function showSearchResults(data){
 document.getElementById('search-movie-img').setAttribute('src', data.Poster);
 document.getElementById('title').innerText=data.Title;
 document.getElementById('actors').innerText=data.Actors;
-document.getElementById('genre').innerText=data.Genre;
-document.getElementById('rating').innerText=data.imdbRating;
-document.getElementById('language').innerText=data.Language;
 document.getElementById('released').innerText=data.Released;
 document.getElementById('duration').innerText=data.Runtime;
 

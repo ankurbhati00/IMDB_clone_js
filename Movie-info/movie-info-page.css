@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-position: center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.container{
+background-color: rgba(40, 38, 38, 0.838);
+height: 100%;
+width: 100%;
+color: white;
+padding-top: 20px;
+
+}
+
+.container> img{
+    background-color: rgba(1, 1, 1, 0.981);
+    height:98vh;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+    position: absolute;
+   
+    
+
+}
+
+.movie-info{
+    color: white;
+    font-weight: 700;
+    border-left: 3px solid red;
+    margin: 0px;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 2.5rem;
+    
+    
+}
+.all-details{
+    margin: 0px 10%;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+margin-top: 50px;  
+font-size: 1rem;
+background-color: rgba(16, 15, 15, 0.463);
+padding: 30px;  
+border-radius: 5px;
+}
+
+.all-details img{
+    height:300px;
+    width:250px;
+    z-index: 2;
+}
+
+.movie-details-head{
+    padding-left: 5%;
+}
+.movie-details-head{
+    flex-grow: 2;
+}
+
+#cast-and-info{
+    padding-top: 10px;
+    
+}
+
+
+.cast-and-info-heading{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.862);
+    width: 100px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.cast-and-full-info{
+    color: rgb(178, 105, 246);
+    font-size: 1rem;
+}
+
+
+#movie-title{
+color: yellowgreen;
+font-size: 2rem;
+font-weight: 900;
+}
+
+.year-duration-info{
+    font-size: 1rem;
+    opacity: .7;
+}
+.rating>div{
+    display: inline-block;
+    width: 300px;
+}
+.rating{
+display: flex;
+justify-content: space-between;
+max-width: 20%;
+color: rgba(245, 245, 245, 0.682);
+}
+
+.fa-star{
+    color:yellowgreen;
+}
+
+/* -------story line------ */
+.plot{
+    margin:0px 10%;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+#plot-heading{
+    font-size: 2rem;
+    color: rgba(7, 185, 185, 0.963);
+    letter-spacing: 5px;
+    
+}
+
+#plot{
+    font-size: 1.3rem;
+    opacity: .6;
+    letter-spacing: 1.5px;
+}

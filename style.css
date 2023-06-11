@@ -220,7 +220,7 @@ nav{
 #add-to-favorites{
     display: inline-block;
  width:200px;
- height:10%;
+ height:30px;
  margin-top: 15px;
  color: black;
  background-color: yellow;
@@ -235,7 +235,7 @@ nav{
 #remove-from-favorites{
     display: none;
     width:200px;
-    height:10%;
+    height:30px;
     margin-top: 5px;
     color: black;
     background-color: rgb(229, 82, 52);
