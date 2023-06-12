@@ -22,7 +22,7 @@ function notFound(){
 // <--------fetch api data ------>
 
  async function fetchdata(search){
-    fetch(`http://www.omdbapi.com/?t=${search}&apikey=d8e50a4d`)
+    fetch(`https://www.omdbapi.com/?t=${search}&apikey=d8e50a4d`)
     .then(async (data) => {
          data= await data.json();
         if (data.Response==="True") {
