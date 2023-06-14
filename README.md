@@ -18,7 +18,8 @@ This is a website that clones the IMDb database. It was created using HTML, CSS,
 
 * A web browser.
 * An internet connection.
-
+# important note
+the api which is used in this web don't support the safe browsing  plase turn off the safe browsing to use this app
 ## Installation
 
 1. Clone the repository.
